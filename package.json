@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "set PORT=8010 && next",
     "build": "next build",
-    "start": "next start"
+    "start": "set PORT=8010 && next start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.0",

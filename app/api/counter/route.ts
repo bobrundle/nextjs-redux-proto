@@ -2,7 +2,7 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
 interface Context {
-  params: undefined;
+  params: Promise<any>;
 }
 
 export async function POST(request: NextRequest, context: Context) {
