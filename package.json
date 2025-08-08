@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "set PORT=8010 && next",
     "build": "next build",
-    "start": "set PORT=8010 && next start"
+    "start": "next start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.0",
