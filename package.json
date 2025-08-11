@@ -5,8 +5,8 @@
     "build": "npm-run-all build:next build:copy",
     "build:next": "next build",
     "build:copy": "bash ./copy-dist.sh",
-    "start": "set PORT=8080 && node .next/standalone/server.js",
-    "standalone": "set PORT=8010 && node .next/standalone/server.js"
+    "start": "set PORT=8080 && node dist/standalone/server.js",
+    "standalone": "set PORT=8010 && node dist/standalone/server.js"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.0",
